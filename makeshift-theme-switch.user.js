@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Makeshift Theme Switch
 // @namespace    https://mkps.app/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Very simple temporary theme switcher for any page
 // @author       MK
 // @license      MIT
@@ -26,7 +26,7 @@
 
 	function main() {
 		setState(getStoredIsOn());
-		GM_registerMenuCommand("Switch Theme", switchTheme);
+		GM_registerMenuCommand("Switch theme", switchTheme);
 	}
 
 	function switchTheme() {
