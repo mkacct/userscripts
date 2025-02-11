@@ -1,0 +1,1 @@
+On desktop-size screens, the "user tools" on itch.io game pages are likely to cover page content. This is especially an issue for browser games, as the buttons often cover the game itself. This style prevents that by applying the same style for the user tools on large screens as is used on small screens.
