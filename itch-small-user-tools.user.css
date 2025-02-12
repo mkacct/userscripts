@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name         itch.io small user tools
 @namespace    https://mkps.app/
-@version      1.0.1
+@version      1.0.2
 @description  Prevents itch.io game page user tools from covering page content on large screens
 @author       MK
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document domain("seltani.net") {
+@-moz-document domain("itch.io") {
 	.user_tools {
 		position: static;
 		margin: 0;
