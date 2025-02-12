@@ -1,0 +1,1 @@
+This repo hosts all userscripts and userstyles I have written. All scripts and styles are available on [GreasyFork](https://greasyfork.org/en/users/1434048-mkacct). The styles are additionally available on [UserStyles.world](https://userstyles.world/user/mkacct).
