@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 (() => {
-    "use strict";
+	"use strict";
 
 	const SESSION_STORAGE_KEY = "MK_userscript_makeshiftThemeSwitch_status";
 
