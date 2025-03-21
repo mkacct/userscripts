@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Network Shortcut
 // @namespace    https://mkps.app/
-// @version      0.1
+// @version      0.1.1
 // @description  Adds a shortcut to the network graph on the repository's main page
 // @author       MK
 // @match        *://github.com/*
@@ -36,12 +36,17 @@
 		});
 	}
 
+	function getNetworkUrl() {
+		const terms = [...location.pathname.split("/").slice(1, 3), "network"];
+		return `/${terms.join("/")}`;
+	}
+
 	function createShortcutLg() {
 		const div = document.createElement("div");
 		div.classList.add(ELEMENT_CLASS);
 		div.classList.add("mt-2");
 		const a = document.createElement("a");
-		a.setAttribute("href", `${location.pathname}/network`);
+		a.setAttribute("href", getNetworkUrl());
 		a.setAttribute("data-view-component", "true");
 		a.classList.add("Link", "Link--muted");
 		a.appendChild(createCommitIcon("mr-2"));
@@ -58,7 +63,7 @@
 		const a = document.createElement("a");
 		a.classList.add(ELEMENT_CLASS, "Link--secondary", "no-underline", "d-block", "mr-2");
 		a.setAttribute("role", "listitem");
-		a.setAttribute("href", `${location.pathname}/network`);
+		a.setAttribute("href", getNetworkUrl());
 		a.appendChild(createCommitIcon("mr-1"));
 		a.appendChild(document.createTextNode(" "));
 		const span = document.createElement("span");
