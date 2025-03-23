@@ -4,5 +4,8 @@
 	"explorer.fileNesting.patterns": {
 		"*.user.css": "${capture}.md",
 		"*.user.js": "${capture}.md"
+	},
+	"material-icon-theme.folders.associations": {
+		"src": "src"
 	}
 }
