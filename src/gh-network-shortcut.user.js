@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         GitHub Network Shortcut
 // @namespace    https://mkps.app/
-// @version      0.1.1
+// @version      0.1.2
 // @description  Adds a shortcut to the network graph on the repository's main page
+// @tag          productivity
 // @author       MK
 // @match        *://github.com/*
 // @icon         https://github.com/favicon.ico

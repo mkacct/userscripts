@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Makeshift Theme Switch
 // @namespace    https://mkps.app/
-// @version      1.0.3
+// @version      1.0.4
 // @description  Very simple temporary theme switcher for any page
+// @tag          utilities
 // @author       MK
 // @license      MIT
 // @match        *://*/*

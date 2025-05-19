@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Tab Renamer
 // @namespace    https://mkps.app
-// @version      1.0.1
+// @version      1.0.2
 // @description  Allows you to rename tabs
+// @tag          utilities
 // @author       MK
 // @license      MIT
 // @match        *://*/*

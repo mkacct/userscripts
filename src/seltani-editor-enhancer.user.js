@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Seltani Editor Enhancer
 // @namespace    https://mkps.app/
-// @version      0.1.2
+// @version      0.1.3
 // @description  Enhances the Seltani build page with monospace fonts and no spellcheck
+// @tag          games
 // @author       MK
 // @license      MIT
 // @match        *://seltani.net/*
