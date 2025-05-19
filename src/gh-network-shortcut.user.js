@@ -5,6 +5,7 @@
 // @description  Adds a shortcut to the network graph on the repository's main page
 // @tag          productivity
 // @author       MK
+// @license      MIT
 // @match        *://github.com/*
 // @icon         https://github.com/favicon.ico
 // ==/UserScript==
