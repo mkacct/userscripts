@@ -38,7 +38,7 @@
 	}
 
 	function forMatchingElementsForever(selector, fn) {
-		const observer = new MutationObserver((list, observer) => {
+		const observer = new MutationObserver((list) => {
 			for (const mutation of list) {
 				for (const addedNode of mutation.addedNodes) {
 					if (addedNode.nodeType !== Node.ELEMENT_NODE) {continue;}
